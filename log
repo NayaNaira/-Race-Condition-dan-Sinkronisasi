@@ -1,0 +1,19 @@
+# Naya- python3 flash_sale_unsafe.py
+=== SIMULASI FLASH SALE (UNSAFE - TANPA MUTEX) ===
+Stok Akhir        : -2
+Berhasil Checkout : 22
+Gagal (Stok Habis): 78
+HASIL: TERJADI OVERSELLING / RACE CONDITION!
+
+# Naya- python3 flash_sale_unsafe.py
+=== SIMULASI FLASH SALE (UNSAFE - TANPA MUTEX) ===
+Stok Akhir        : -3
+Berhasil Checkout : 23
+Gagal (Stok Habis): 77
+HASIL: TERJADI OVERSELLING / RACE CONDITION!
+
+# Naya- python3 flash_sale_safe.py
+=== SIMULASI FLASH SALE (SAFE - DENGAN MUTEX) ===
+Stok Akhir        : 0
+Berhasil Checkout : 20
+Gagal (Stok Habis): 80
